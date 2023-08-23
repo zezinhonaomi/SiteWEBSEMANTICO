@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="cabecalho">
+        <h2><img src="imagens/letra-e.png" width="45" height="45" alt=""></h2>
+        <ul class="menu">
+            <li class="menu-links"><a href="#infancia">BRINCADEIRAS INFÂNCIA</a></li>
+            <li class="menu-links"><a href="#console">OS CONSOLES</a></li>
+            <li class="menu-links"><a href="#casa">DADINHO</a></li>
+            <li class="menu-links"><a href="#vegas">LAS VEGAS</a></li>
+            <li class="menu-links"><a href="#vozinha">QUE, QUE IA VELHINHO</a></li>
+        </ul>
+    </nav>
+    
+    <main id="conteudo">
+        <aside class="lateral">
+            <p >ESTE SITE VEM COM UM CHEIRO DE INFÂNCIA,
+                NELE VOCÊ PODE BRINCAR COM ALGUNS JOGOS QUE MARCARAM A SUA INFÂNCIA. 
+            </p>
+
+        </aside>
+        <section class="infancia" id="infancia"><h3>Brincadeiras de infância</h3>
+            <p>A infância é marcada por uma variedade de brincadeiras, desde as tradicionais até as modernas, como videogames. Essas atividades não apenas proporcionam diversão, mas também contribuem para o desenvolvimento social, emocional e cognitivo das crianças. Através das brincadeiras, elas aprendem a cooperar, resolver desafios e explorar sua criatividade. Além disso, essas interações lúdicas estimulam habilidades como empatia, comunicação e resiliência, preparando as crianças para um crescimento saudável e um futuro promissor.</p>
+        </section>
+        <section class="video-game" id="console"><h4>Os consoles</h4>
+            <p>Os videogames se estabeleceram como uma parte significativa da infância contemporânea, proporcionando às crianças uma experiência única de entretenimento e interação. Ao longo das últimas décadas, os jogos eletrônicos evoluíram de simples formas de diversão para complexas e envolventes aventuras digitais, desempenhando um papel importante no desenvolvimento infantil.</p>
+        </section>
+        <section class="rpg" id="casa">
+            <div> <h1> VOCÊ TEM DADO EM CASA?</h1><br>
+                <button onclick="dado()">LET`S PLAY</button>
+                <h3>AQUI ESTÁ O RESULTADO!!</h3>
+                <div id="demoD"></div></div>
+            </section>
+            <section class="cacaniquel" id="vegas">
+                <div>
+                    <h1>LAS VEGAS ON-LINE</h1>
+                    <h3 id="texto"></h3>
+                    <section class="dados">
+                        <div id="demo"></div>
+                        <div id="demo1"></div>
+                        <div id="demo2"></div></div>
+                        <button onclick="dadoCASSINO()">VAMOS PERDER SUAS FINANÇAS, HAHAHA</button>
+                    </section>
+                </section>
+                <section class="jogodavelha" id="vozinha">
+                    <h1>VENHA JOGAR SUA VELHA!!</h1>
+                <h3 id="textoV"></h3>
+                <table border="1px">
+                    <tr>
+                        <td id="demoV"></td>
+                        <td id="demoV1"></td>
+                        <td id="demoV2"></td>
+                    </tr>
+                    <tr>
+                        <td id="demoV3"></td>
+                        <td id="demoV4"></td>
+                        <td id="demoV5"></td>
+                    </tr>
+                    <tr>
+                        <td id="demoV6"></td>
+                        <td id="demoV7"></td>
+                        <td id="demoV8"></td>
+                    </tr>
+                </table><br>
+                <button onclick="dadoVELHA()">GIRAR JOGO!</button>
+                <button onclick="contar()">SORTEIA AÍ.</button>
+                <p id="acertos"></p>
+                <p id="contador"></p>
+            </section>
+        </main>
+        
+        
+        <footer>Feito por: ELIAS HENRIQUE  ©️copyright 2023.</footer>
+    <script src="js/index.js"></script>
+
+</html>

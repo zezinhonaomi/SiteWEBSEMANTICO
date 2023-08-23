@@ -1,0 +1,312 @@
+footer {
+	background-color:black;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+	margin-top: 400px;
+    width:auto;
+	/*align-items: center;*/
+}
+
+nav{
+    background-color: blue;
+    padding: 20px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+ .menu-links{
+    margin-right: 40px;
+    font-size: 1.8em;
+    gap: 20px;
+} 
+
+*{  
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color:yellowgreen;
+    font-family: cursive;
+    text-align:center;
+}
+
+a{
+    color: whitesmoke;
+}
+h1{
+    font-size: 1.6em;
+    margin-top: 5%;
+    color:red;
+}
+
+h2{
+    font-size: 2.0em;
+    margin-top: 5%;
+    color:black;
+    float: left;
+}
+h3{
+    font-size: 10.2;
+    margin-top: 5%;
+    color:rgba(98, 176, 240, 0.836);
+}
+h4{
+    font-size: 10.2;
+    margin-top: 5%;
+    color:rgba(243, 228, 21, 0.836); 
+}
+button{
+	padding:20px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: cadetblue;
+	border: 2px dashed black;
+	size: 20px;
+}
+
+#texto{
+    color:orangered;
+}
+#acertos{
+    color:aqua;
+}
+#contador{
+    color:aqua;
+}
+#conteudo{
+    display:grid;
+    grid-template-rows: 5fr;
+}
+.video-game{
+    background: url('../imagens/video-game.jpg') no-repeat;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    font-size: 2.5em;
+    border-radius: 25px;
+    padding:40px;
+    margin:2% 20%;
+    color: white;
+}
+.infancia{
+    background: url('../imagens/crianca.jpg') no-repeat;
+    background-size: cover;
+    width: auto;
+    height: auto;
+    font-size: 2.5em;
+    border-radius: 25px;
+    padding:40px;
+    margin:2% 20%;
+    color:yellow;
+}
+.cacaniquel{
+    background-image: url('../imagens/cacaniquel.jpg');
+    width: auto;
+    height: auto;
+    font-size: 2.5em;
+    border-radius: 25px;
+    padding:40px;
+    margin:2% 20%;
+}
+
+.rpg{
+    background-image: url('../imagens/dados.png');
+    width: auto;
+    height:auto;
+    
+    font-size: 2.5em;
+    border-radius: 25px;
+    padding:40px;
+    margin:2% 20%;
+
+}
+
+.jogodavelha{
+    background-image: url('../imagens/jogodavelha.png');
+    width: auto;
+    height: auto;
+   
+    font-size: 2.5em;
+    border-radius: 25px;
+    padding:40px;
+    margin:2% 20%;
+}
+
+#demo{
+	margin:auto;
+    width:200px;
+    height:200px;
+}
+#demo1{
+	margin:auto;
+    width:200px;
+    height:200px;
+}
+#demo2{
+	margin:auto;
+    width:200px;
+    height:200px;
+}
+
+.lateral{
+    background: aliceblue;
+    font-size: 2.5em;
+    border-radius: 25px;
+    text-align: center;
+    height: 65vh;
+    margin-left:2%;
+    position:fixed;
+    top: 250px;
+    left:5px;
+    width: 15%;
+    font-size: 1.8em;
+    
+}
+
+/*CSS DO JOGO CASSINO*/
+.dados{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+.dice1{
+    background-image: url('../imagens/1.png');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    padding:20px;
+}
+.dice2{
+    background-image: url('../imagens/2.png');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    padding:20px;
+}
+.dice3{
+    background-image: url('../imagens/3.png');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    padding:20px;
+}
+.dice4{
+    background-image: url('../imagens/4.png');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    padding:20px;
+}
+.dice5{
+    background-image: url('../imagens/5.png');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    padding:20px;
+}
+.dice6{
+    background-image: url('../imagens/6.png');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    padding:20px;
+}
+
+/* CSS DO JOGO DOS DADOS*/
+
+.D1{
+    background-image: url('../imagens/1.png');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    
+}
+.D2{
+    background-image: url('../imagens/2.png');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    
+}
+.D3{
+    background-image: url('../imagens/3.png');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    
+}
+.D4{
+    background-image: url('../imagens/4.png');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+
+}
+.D5{
+    background-image: url('../imagens/5.png');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+
+}
+.D6{
+    background-image: url('../imagens/6.png');
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    
+}
+
+#demoD{
+    margin:auto;
+    width: 200px;
+    height:200px;
+}
+
+/*CSS DO JOGO VELHA*/
+
+table{
+    margin: auto auto;
+    width:360px;
+    height:360px;
+    border:1px dashed black;
+    
+}
+
+.dado1{
+    background-image: url('../imagens/1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.dado2{
+    background-image: url('../imagens/2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.dado3{
+    background-image: url('../imagens/3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.dado4{
+    background-image: url('../imagens/4.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.dado5{
+    background-image: url('../imagens/5.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.dado6{
+    background-image: url('../imagens/6.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
